@@ -14,7 +14,7 @@ JOIN "line_items" ON "order_id" = "orders"."id"
 
 
 --3. Which warehouses have cheetos?
-SELECT *
+
 
 
 
