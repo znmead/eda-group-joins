@@ -1,7 +1,14 @@
 -- Tasks
+
 --1. Get all customers and their addresses.
+SELECT *
+FROM "customers"
+JOIN "addresses" ON "customer_id" = "customers"."id";
+
 
 --2. Get all orders and their line items (orders, quantity and product).
+
+
 
 
 --3. Which warehouses have cheetos?
@@ -21,6 +28,9 @@
 
 
 --8. What is the total available on-hand quantity of diet pepsi?
+
+
+
 
 
 
